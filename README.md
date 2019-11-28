@@ -21,7 +21,7 @@ Tabela 2: Namen uporabe interneta po izobrazbi in spolu
 
 Tabela 3: Namen uporabe interneta po statusu aktivnosti
 
-  - stolpci: leto, namen uporabe internet, status aktivnosti
+  - stolpci: leto, namen uporabe interneta, status aktivnosti
 
 Tabela 4: Namen uporabe interneta po stopnji urbanizacije
 
