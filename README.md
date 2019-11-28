@@ -6,9 +6,29 @@ Repozitorij z gradivi pri predmetu APPR v študijskem letu 2019/20
 * [![RStudio](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/jaanos/APPR-2019-20/master?urlpath=rstudio) RStudio
 
 ## Tematika
+V projektni nalogi bom analiziral namen uporabe interneta v Sloveniji v letih 2007-2014. Zanima me, kako se spreminja uporaba interneta pri posameznikih, glede na starost, spol, izobrazbo, status aktivnosti in stopnjo urbanizacije. Poskušal bom ugotoviti, katere na uporabe interneta najmanj vplivajo dane spremenljivke, torej kaj posameznik uporablja ne glede na spol, starost,...
 
-Izbrali si boste temo, s katero se bo vaš projekt ukvarjal.
-Tukaj boste napisali, kje ste dobili podatke, ter kakšen je vaš cilj.
+Vir podatkov v obliki .csv in .html:
+https://pxweb.stat.si/SiStatDb/pxweb/sl/20_Ekonomsko/20_Ekonomsko__23_29_informacijska_druzba__95_uporaba_inter_arhiv/?tablelist=true
+
+Tabela 1: Namen uporabe interneta po starostnih razredih in spolu
+
+stolpci: Leto, Namen uporabe interneta, Starostni razredi in spol
+
+Tabela 2: Namen uporabe interneta po izobrazbi in spolu
+
+stolpci: Leto, Namen uporabe interneta, Izobrazba in spol
+
+Tabela 3: Namen uporabe interneta po statusu aktivnosti
+
+stolpci: Leto, Namen uporabe internet, Status aktivnosti
+
+Tabela 4: Namen uporabe interneta po stopnji urbanizacije
+
+stolpci: Leto, Namen uporabe interneta, Stopnja urbanizacije
+
+Vir podatkov v obliki .csv in .html:
+https://pxweb.stat.si/SiStatDb/pxweb/sl/20_Ekonomsko/20_Ekonomsko__23_29_informacijska_druzba__95_uporaba_inter_arhiv/?tablelist=true
 
 ## Program
 
