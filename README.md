@@ -13,19 +13,19 @@ https://pxweb.stat.si/SiStatDb/pxweb/sl/20_Ekonomsko/20_Ekonomsko__23_29_informa
 
 Tabela 1: Namen uporabe interneta po starostnih razredih in spolu
 
-  stolpci: Leto, Namen uporabe interneta, Starostni razredi in spol
+  - stolpci: Leto, Namen uporabe interneta, Starostni razredi in spol
 
 Tabela 2: Namen uporabe interneta po izobrazbi in spolu
 
-  stolpci: Leto, Namen uporabe interneta, Izobrazba in spol
+  - stolpci: Leto, Namen uporabe interneta, Izobrazba in spol
 
 Tabela 3: Namen uporabe interneta po statusu aktivnosti
 
-  stolpci: Leto, Namen uporabe internet, Status aktivnosti
+  - stolpci: Leto, Namen uporabe internet, Status aktivnosti
 
 Tabela 4: Namen uporabe interneta po stopnji urbanizacije
 
-  stolpci: Leto, Namen uporabe interneta, Stopnja urbanizacije
+  - stolpci: Leto, Namen uporabe interneta, Stopnja urbanizacije
 
 ## Program
 
