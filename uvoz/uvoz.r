@@ -19,7 +19,7 @@ stopnja_urbanizacije <- read_csv2("podatki/stopnja_urbanizacije.csv", col_names 
 
 #Tabela 5: Namen uporabe interneta po starostnih razredih
 
-starost <- read_csv2("podatki/starost.csv", col_names = TRUE, na="-", locale=locale(encoding="Windows-1250"))
+starostni_razredi <- read_csv2("podatki/starostni_razredi.csv", col_names = TRUE, na="-", locale=locale(encoding="Windows-1250"))
 
 
 

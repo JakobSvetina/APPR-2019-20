@@ -1,6 +1,7 @@
 ---
 title: "Poročilo pri predmetu Analiza podatkov s programom R"
-author: "Študent FDV"
+subtitle: "Analiza namena uporabe interneta v Sloveniji"
+author: "Jakob Svetina"
 output:
   html_document: default
   pdf_document:
@@ -24,11 +25,12 @@ source("lib/libraries.r", encoding="UTF-8")
 source("lib/rstudio.r", encoding="UTF-8")
 ```
 
+
 # Izbira teme
 
-Za vzorec bomo prikazali nekaj podatkov o slovenskih občinah.
+Tema: Analiza namena uporabe interneta v Sloveniji
 
-![](slike/grb.png)
+V projektni nalogi bom analiziral namen uporabe interneta v Sloveniji v letih 2007-2014.Zanima me, kako se spreminja uporaba interneta pri posameznikih, glede na starost, spol, izobrazbo, status aktivnosti in stopnjo urbanizacije. Poskušal bom ugotoviti, na katere uporabe interneta najmanj vplivajo dane spremenljivke, torej kaj posameznik uporablja ne glede na spol, starost, ...
 
 ***
 
@@ -37,6 +39,85 @@ Za vzorec bomo prikazali nekaj podatkov o slovenskih občinah.
 ```{r uvoz, echo=FALSE, message=FALSE}
 source("uvoz/uvoz.r", encoding="UTF-8")
 ```
+
+Vhodni podatki so v obliki csv.
+
+Vir podatkov:
+ - https://pxweb.stat.si/SiStatDb/pxweb/sl/20_Ekonomsko/20_Ekonomsko__23_29_informacijska_druzba__95_uporaba_inter_arhiv/?tablelist=true
+ 
+Podatki so v 5 tabelah:
+
+Tabela 1: Namen uporabe interneta po starostnih razredih in spolu - 'starostni_razredi_in_spol':
+ - 'namen uporabe interneta' - (neurejen faktor)
+ - 'leto' - (število)
+ - 'število posameznikov - skupaj' - (število)
+ - '16-24' - (število)
+ - '25-34' - (število)
+ - '35-44' - (število)
+ - '45-54' - (število)
+ - '55-64' - (število)
+ - '65-74' - (število)
+ - 'moški - skupaj' - (število)
+ - 'moški 16-24' - (število)
+ - 'moški 35-54' - (število)
+ - 'moški 55-74' - (število)
+ - 'ženske - skupaj' - (število)
+ - 'ženske 16-24' - (število)
+ - 'ženske 35-54' - (število)
+ - 'ženske 55-74' - (število)
+
+Tabela 2: Namen uporabe interneta po izobrazbi in spolu - 'izobrazba_in_spol':
+ - 'namen uporabe interneta' - (neurejen faktor)
+ - 'leto' - (število)
+ - 'število posameznikov - skupaj' - (število)
+ - 'največ oš izobrazba' - (število)
+ - 'srednja izobrazba' - (število)
+ - 'vsaj visokošolska izobrazba' - (število)
+ - 'moški - skupaj' - (število)
+ - 'moški največ oš izobrazba' - (število)
+ - 'moški srednja izobrazba' - (število)
+ - 'moški vsaj visokošolska izobrazba' - (število)
+ - 'ženske - skupaj' - (število)
+ - 'ženske največ oš izobrazba' - (število)
+ - 'ženske srednja izobrazba' - (število)
+ - 'ženske vsaj visokošolska izobrazba' - (število)
+ 
+ Tabela 3: Namen uporabe interneta po statusu aktivnosti - 'status_aktivnosti':
+ - 'namen uporabe interneta' - (neurejen faktor)
+ - 'leto' - (število)
+ - 'število posameznikov - skupaj' - (število)
+ - 'učenec, dijak, študent' - (število)
+ - 'zaposlen, samozaposlen' - (število)
+ - 'upokojenec' - (število)
+ - 'drugo' - (število)
+ 
+ Tabela 4: Namen uporabe interneta po stopnji urbanizacije - 'stopnja_urbanizacije':
+ - 'namen uporabe interneta' - (neurejen faktor)
+ - 'leto' - (število)
+ - 'število posameznikov - skupaj' - (število)
+ - 'gosto poseljena območja' - (število)
+ - 'vmesna območja' - (število)
+ - 'redko poseljena območja' - (število)
+
+Tabela 5: Namen uporabe interneta po starostnih razredih - 'starostni_razredi':
+ - 'namen uporabe interneta' - (neurejen faktor)
+ - 'leto' - (število)
+ - '16-24' - (število)
+ - '25-34' - (število)
+ - '35-44' - (število)
+ - '45-54' - (število)
+ - '55-64' - (število)
+ - '65-74' - (število)
+
+
+
+
+
+
+
+
+
+
 
 Uvozili smo podatke o občinah v obliki CSV s statističnega urada ter v obliki HTML
 z Wikipedije. Podatke imamo v dveh razpredelnicah v obliki *tidy data*.

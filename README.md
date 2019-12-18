@@ -2,8 +2,8 @@
 
 Repozitorij z gradivi pri predmetu APPR v študijskem letu 2019/20
 
-* [![Shiny](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/jaanos/APPR-2019-20/master?urlpath=shiny/APPR-2019-20/projekt.Rmd) Shiny
-* [![RStudio](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/jaanos/APPR-2019-20/master?urlpath=rstudio) RStudio
+* [![Shiny](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/JakobSvetina/APPR-2019-20/master?urlpath=shiny/APPR-2019-20/projekt.Rmd) Shiny
+* [![RStudio](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/JakobSvetina/APPR-2019-20/master?urlpath=rstudio) RStudio
 
 ## Tematika
 V projektni nalogi bom analiziral namen uporabe interneta v Sloveniji v letih 2007-2014. Zanima me, kako se spreminja uporaba interneta pri posameznikih, glede na starost, spol, izobrazbo, status aktivnosti in stopnjo urbanizacije. Poskušal bom ugotoviti, na katere uporabe interneta najmanj vplivajo dane spremenljivke, torej kaj posameznik uporablja ne glede na spol, starost, ...
