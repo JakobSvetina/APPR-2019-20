@@ -1,11 +1,6 @@
 # 2. faza: Uvoz podatkov
 
 
-library(readr)
-library(tidyr)
-library(dplyr)
-
-
 #Tabela 1: Namen uporabe interneta po starostnih razredih in spolu
 
 starostni_razredi_in_spol <- read_csv2("podatki/starostni_razredi_in_spol.csv", col_names = TRUE, na="-", locale=locale(encoding="Windows-1250"))
