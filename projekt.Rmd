@@ -40,7 +40,7 @@ V projektni nalogi bom analiziral namen uporabe interneta v Sloveniji v letih 20
 source("uvoz/uvoz.r", encoding="UTF-8")
 ```
 
-Vhodni podatki so v obliki csv.
+Vhodni podatki so v obliki .csv.
 
 Vir podatkov:
  - https://pxweb.stat.si/SiStatDb/pxweb/sl/20_Ekonomsko/20_Ekonomsko__23_29_informacijska_druzba__95_uporaba_inter_arhiv/?tablelist=true
