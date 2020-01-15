@@ -21,7 +21,7 @@ stopnja_urbanizacije <- read_csv2("podatki/stopnja_urbanizacije.csv", col_names 
 
 starostni_razredi <- read_csv2("podatki/starostni_razredi.csv", col_names = TRUE, na="-", locale=locale(encoding="Windows-1250"))
 
-
+starostni_razredi_test <- read_csv2("podatki/starostni_razredi_test.csv", col_names = TRUE, na="-", locale=locale(encoding="Windows-1250"))
 
 
 
