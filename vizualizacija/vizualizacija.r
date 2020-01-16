@@ -11,7 +11,8 @@
 # # Izračunamo povprečno velikost družine
 # povprecja <- druzine %>% group_by(obcina) %>%
 #   summarise(povprecje=sum(velikost.druzine * stevilo.druzin) / sum(stevilo.druzin))
+
 require(ggplot2)
 require(dplyr)
-
-graf1 <- ggplot(starostni_razredi_test) + aes(x="NAMEN UPORABE INTERNETA", y="16 - 24")
+colnames(starostni_razredi_test) <- c("namen", "starost")
+graf1 <- ggplot(starostni_razredi_test) + aes(x=namen, y= starost) + geom_point()
